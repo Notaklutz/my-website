@@ -1,0 +1,30 @@
+/* For a single recipe page */
+#recipe-intro {
+  margin: auto;
+  text-align: center;
+}
+
+#recipe-image {
+  width: 75%;
+}
+
+#recipe-info {
+  width: 25%;
+}
+
+#recipe-info-box {
+  border: 1px solid white;
+  margin-left: 2%;
+}
+
+.recipe-detail-headings {
+  margin-bottom: 1%;
+}
+
+.recipe-detail-list {
+  margin-top: 0%;
+}
+
+.recipe-instructions {
+  margin-bottom: 2%;
+}

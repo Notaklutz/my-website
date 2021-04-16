@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  font-family: 'PT Serif', serif !important;
+  background: rgba(8, 69, 24, 0.9);
+  color: white;
+  text-rendering: optimizeLegibility;
+  margin: auto;
+  font-weight: lighter;
+}
+
+#site-title {
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  font-size: 500%;
+  margin: auto;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  text-align: center;
+  background-color: rgb(12, 92, 33);
+}
+
+#main-nav {
+  background-color: rgb(27, 245, 85);
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  text-align: center;
+}
+
+#main-nav > ul {
+  margin: auto;
+}
+
+#main-nav > ul > li {
+  list-style-type: none;
+  display: inline;
+  font-size: xx-large;
+  color: rgb(12, 92, 33);
+  margin: 5%;
+  margin-inline: 2.5%;
+}
+
+.nav-links:link {
+  text-decoration: none;
+  color: rgb(12, 92, 33);
+}
+
+.nav-links:visited {
+  text-decoration: none;
+  color: rgb(12, 92, 33);
+}
+
+.nav-links:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-links:active {
+  text-decoration: none;
+  color: rgb(12, 92, 33);
+}
+
+main {
+  max-width: 70%;
+  margin: auto;
+}
+
+#page-title {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: xx-large;
+  text-align: center;
+}
+
+footer {
+  max-width: 70%;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  font-size: 150%;
+  text-align: center;
+  border-top: 1px solid white;
+}
