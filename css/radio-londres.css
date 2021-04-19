@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#game-section {
+  text-align: center;
+}
+
+button {
+  z-index: 1;
+  position: absolute;
+}
+
+#start-button {
+  font-size: 30px;
+  right: 755px;
+  bottom: 70px;
+  font-family: sans-serif;
+}
+
+#canvas-button {
+  visibility: hidden;
+  opacity: 0;
+  width: 1000px;
+  height: 600px;
+  bottom: -244px;
+  right: 290px;
+  margin: auto;
+  border: 1px solid white;
+}
