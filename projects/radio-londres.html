@@ -65,10 +65,15 @@
           Distraction Action was my final project for AP Computer Science. I created a company called Kodiak Red with a partner and made a game that teaches users how to avoid distractions when studying. The game has three different levels and was programmed in Java.
         </p>
       </section>
-      <section id="game-section">
-        <canvas id="game-canvas" width="1000px" height="600px" style="margin-top: 10px"></canvas>
+      <section id="game-section" style="margin-top: 10px; margin-left: 50px">
+        <canvas id="game-canvas" width="1000px" height="600px"></canvas>
         <button id="start-button" type="button">Start</button>
-        <button id="canvas-button" type="button"></button>
+        <button id="splash-button" type="button"></button>
+          <video id="menu-footage" src="radio-londres/videos/resistance-footage.mp4" preload="auto" loop muted></video>
+        <button class="menu-buttons" id="play-button"></button>
+        <button class="menu-buttons" id="history-button"></button>
+        <button class="menu-buttons" id="audio-button"></button>
+        <button class="menu-buttons" id="credits-button"></button>
       </section>
 
     </main>
@@ -80,6 +85,8 @@
   </body>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="../js/radio-londres.js"></script>
+  <script src="../js/radio-londres/main-menu.js"></script>
+  <script src="../js/radio-londres/click-handler.js"></script>
+  <script src="../js/radio-londres/radio-londres.js"></script>
 
 </html>

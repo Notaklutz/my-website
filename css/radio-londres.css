@@ -1,22 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 #game-section {
-  text-align: center;
+  position: relative;
+  width: 1000px;
+  height: 600px;
+}
+
+#game-canvas {
+  z-index: 1;
+  position: absolute;
 }
 
 button {
-  z-index: 1;
+  z-index: 2;
   position: absolute;
 }
 
 #start-button {
   font-size: 30px;
-  right: 755px;
-  bottom: 70px;
+  left: 470px;
+  top: 280px;
   font-family: sans-serif;
 }
 
-#canvas-button {
+#splash-button {
+  visibility: hidden;
+  opacity: 0;
+  width: 1000px;
+  height: 600px;
+}
+
+#menu-footage {
+  visibility: hidden;
+  position: absolute;
+  min-width: 1000px;
+  max-height: 600px;
+}
+
+.menu-buttons {
+  visibility: hidden;
+  opacity: 0;
+  width: 230px;
+  height: 40px;
+  right: 675px;
+}
+
+#play-button {
+  left: 385px;
+  top: 135px;
+}
+
+#history-button {
+  left: 385px;
+  top: 180px;
+}
+
+#audio-button {
+  left: 385px;
+  top: 225px;
+}
+
+#credits-button {
+  left: 385px;
+  top: 475px;
+}
+
+/*#canvas-button {
   visibility: hidden;
   opacity: 0;
   width: 1000px;
