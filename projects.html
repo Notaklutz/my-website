@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="My name is Kevin Nguyen and I'm an incoming first-year computer engineering student at the University of Waterloo.">
+    <meta name="keywords" content="Kevin Nguyen, Computers, Computer Engineering, Waterloo, University of Waterloo, Waterloo Engineering">
+    <meta name="author" content="Kevin Nguyen">
+    <title>Kevin Nguyen's Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="icon" href="images/favicon.png">
+  </head>
+  <body>
+
+    <header id="main-header">
+      <h1 id="site-title">Kevin Nguyen's Website</h1>
+    </header>
+
+    <section>
+      <nav id="main-nav">
+        <ul>
+          <li>
+            <a class="nav-links" target="_self" href="index.html">
+              Home
+            </a>
+          </li>
+            <li>
+                <a class="nav-links" target="_self" href="projects.html">
+                    Projects
+                </a>
+            </li>
+            <li>
+                <a class="nav-links" target="_self" href="https://www.linkedin.com/in/kevin-nguyen-349b1016a/">
+                    LinkedIn
+                </a>
+            </li>
+            <li>
+                <a class="nav-links" target="_self" href="https://github.com/Notaklutz">
+                    GitHub
+                </a>
+            </li>
+          <li>
+            <a class="nav-links" target="_self" href="recipes.html">
+              Recipes
+            </a>
+          </li>
+            <li>
+              <a class="nav-links" target="_self" href="contact-me.html">
+                    Contact Me
+              </a>
+            </li>
+        </ul>
+      </nav>
+    </section>
+
+    <main>
+
+      <div id="page-title">Projects</div>
+
+      <section>
+        <button type="button" class="project-collapsible" style="margin-top: 0">AP Computer Science (2019)</button>
+        <div class="project-info">
+          <p>
+            <a class="project-page-link" target="_self" href="projects/distraction-action.html">Distraction Action</a> - final project for AP Computer Science. Created a company with a partner and made a game that teaches users how to avoid distractions when studying. Programmed in Java.
+          </p>
+          <p>
+            <a class="project-page-link" target="_self" href="projects/my-portfolio.html">My Portfolio</a> - a website showcasing Java tutorials, projects, and other information about me. NOTE: Most of the information has not been updated since 2019.
+          </p>
+        </div>
+        <button type="button" class="project-collapsible">Grade 11 Introduction to Computer Studies (2018 - 2019)</button>
+        <div class="project-info">
+          <p>
+            <a class="project-page-link" target="_self" href="projects/snakes-and-ladders.html">Snakes and Ladders</a> - final project for the course, a classic 2-player Snakes and Ladders game. Programmed in Java.
+          </p>
+          <p>
+            <a class="project-page-link" target="_self" href="projects/MyCreation-ICS3U3.html">MyCreation 2: Subway Ninja</a> - an animated story about Subway Ninja, a ninja who sells subway sandwiches in the subway. Programmed in Java.
+          </p>
+        </div>
+        <button type="button" class="project-collapsible">Grade 10 Introduction to Computer Studies (2017 - 2018)</button>
+        <div class="project-info">
+          <p>
+            <a class="project-page-link" target="_self" href="projects/song-guesser.html">Song Guesser</a> - final project for the course, a song guessing game with 3 levels. Programmed in the Turing programming language.
+          </p>
+          <p>
+            <a class="project-page-link" target="_self" href="projects/MyCreation-ICS2O3.html">MyCreation: Mammals of the Caribbean</a> - an animated story about some mammals in the Caribbean. Programmed in the Turing programming language.
+          </p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      © 2021 Kevin Nguyen
+    </footer>
+
+  </body>
+
+  <script>
+    var coll = document.getElementsByClassName("project-collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var projectInfo = this.nextElementSibling;
+        if (projectInfo.style.display === "block") {
+          projectInfo.style.display = "none";
+        } else {
+          projectInfo.style.display = "block";
+        }
+      });
+    }
+  </script>
+
+</html>

@@ -1,0 +1,19 @@
+#email-link:link {
+  text-decoration: underline;
+  color: white;
+}
+
+#email-link:visited {
+  text-decoration: none;
+  color: white;
+}
+
+#email-link:hover {
+  text-decoration: none;
+  color: rgb(27, 245, 85);
+}
+
+#email-link:active {
+  text-decoration: none;
+  color: white;
+}

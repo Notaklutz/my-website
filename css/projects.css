@@ -1,0 +1,44 @@
+.project-collapsible {
+  border: none;
+  background-color: rgba(8, 69, 24, 0.6);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.active, .project-collapsible:hover {
+  background-color: rgba(8, 69, 24, 1);
+}
+
+.project-info {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  color: white;
+  background-color: rgba(8, 69, 24, 0.4);
+}
+
+.project-page-link:link {
+  text-decoration: underline;
+  color: white;
+}
+
+.project-page-link:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.project-page-link:hover {
+  text-decoration: none;
+  color: rgb(27, 245, 85);
+}
+
+.project-page-link:active {
+  text-decoration: none;
+  color: white;
+}
